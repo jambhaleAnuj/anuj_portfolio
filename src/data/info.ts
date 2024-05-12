@@ -1,12 +1,12 @@
 export const info = {
-  name: "Bart Simpson",
+  name: "Anuj Jambhale",
   brief_description:
-    "I'm a mischievous full stack developer with a knack for troublemaking.",
+    "I'm a full stack developer with a knack for Game Development.",
   role: "Full Stack Developer",
-  picture: "/pic.png",
+  picture: "/my_photo.png",
   picture_alt: "Bart Simpson",
-  location: "Springfield, USA",
-  cv: "/resume.pdf",
+  location: "Mumbai, India",
+  cv: "/My_Resume.pdf",
 
   about: {
     description: `I'm a full stack developer with a passion for causing a little chaos in web development.
@@ -16,77 +16,70 @@ export const info = {
     Looking for a challenge? Let's create something memorable together.`,
     education: [
       {
-        title: "Self-Taught Developer Extraordinaire",
-        date: "2000 - Present",
-        location: "Springfield Elementary School of Hard Knocks",
-        gpa: "4.0 (A+ in Pranks)",
-        thesis: "The Art of Subverting Expectations: A Practical Guide",
+        title: "Bachelors in Science, Computer Science ",
+        date: "2020 - 2023",
+        location: "Tilak College of Science and Commerce, Vashi",
+        gpa: "9.68 CGPA",
+        
+      },
+      {
+        title: "Masters in Science, Computer Science ",
+        date: "2023 - Present",
+        location: "SIES College of Arts, Science and Commerce, Nerul",
+        
+        
       },
     ],
     experience: [
       {
-        title: "Frontend Developer",
-        date: "2015 - Present",
-        location: "Krusty Burger Web Dev",
+        title: "Web Developer Intern",
+        date: "Present",
+        location: "Rasheed Foundation, Navi Mumbai",
         description:
-          "Crafted interactive web experiences using React and Redux. Often multitasked between coding and avoiding Principal Skinner.",
-      },
-      {
-        title: "Backend Bandit",
-        date: "2013 - 2015",
-        location: "Comic Book Guy's Software Emporium",
-        description:
-          "Masterminded backend solutions using Node.js and MongoDB. Surprisingly good at debugging, considering my history of causing bugs.",
-      },
-      {
-        title: "Junior Hacker",
-        date: "2010 - 2013",
-        location: "Springfield Elementary Cyber Club",
-        description:
-          "Pioneered early web exploits, leading the club in daring coding escapades. Was disciplined for hacking the school's grading system.",
+          "Crafted interactive web experiences using PHP.",
       },
     ],
 
-    skills: ["JavaScript", "React", "Node.js", "MongoDB", "Prank Mastery"], // not used yet
+    skills: ["JavaScript", "React", "Node.js", "MongoDB", "C#", "PHP"], // not used yet
   },
 
   projects: [
     {
-      title: "Bart's Prank Portfolio",
-      date: "2024",
-      description:
-        "An interactive portfolio website showcasing my mischievous coding projects.",
-      link: "https://github.com/bartsimpsonfake/prank-portfolio",
-      tech: ["React", "Node.js", "MongoDB", "Sarcasm.js"],
-      img_alt: "Bart's Portfolio",
-      img_path: "/simpsons.png",
-    },
-    {
-      title: "Skateboard Shop",
-      date: "2023",
-      description:
-        "An e-commerce site selling skateboards and prank supplies. No bullies allowed!",
-      link: "https://github.com/bartsimpsonfake/skate-shop",
-      tech: ["React", "Node.js", "MongoDB", "Skateboard.js"],
-      img_alt: "Skateboard Shop",
-      img_path: "skateboard.png",
-    },
-    {
-      title: "Comic Book Club",
+      title: "Java Point of Sales with Android Barcode Scanner Application",
       date: "2022",
       description:
-        "A platform for comic book enthusiasts to discuss and share their collections.",
+        "A POS system made with Java for desktop which utilizes the Android Barcode Scanner Application instead of the Physical barcode scanner",
+      link: "https://github.com/jambhaleAnuj/java_point_of_sales_3",
+      tech: ["Java", "IReport", "Zxing", "Android" ],
+      img_alt: "Anuj's Portfolio",
+      img_path: "/pos.png",
+    },
+    {
+      title: "Music control using hand gesture recognition",
+      date: "2023",
+      description:
+        "this project demonstrates how to combine computer vision, machine learning, and audio functionalities to create an interactive music control system based on hand gestures.",
+      link: "https://github.com/jambhaleAnuj/Music-control-with-hand-gesture-recognition",
+      tech: ["Python", "Tensorflow", "OpenCV", "pygame"],
+      img_alt: "Music control using hand gesture recogntion",
+      img_path: "hand_recognition.png",
+    },
+    {
+      title: "Ping Pong Game made using Unity game engine",
+      date: "2022",
+      description:
+        "This ping pong game is made in Unity game engine. This game has 2 modes: Single Player and Multiplayer",
       link: "https://github.com/bartsimpsonfake/comic-club",
-      tech: ["React", "Node.js", "MongoDB", "Comic.js"],
-      img_alt: "Comic Book Club",
-      img_path: "comics.png",
+      tech: ["Unity Engine", "C#"],
+      img_alt: "Ping pong ",
+      img_path: "ping_pong.png",
     },
   ],
 
   contact: {
-    email: "bart@thesimpsons.com",
-    linkedin: "https://www.linkedin.com/in/bartsimpsonfake",
-    github: "https://www.github.com/gio-del",
-    twitter: "https://www.twitter.com/bartsimpsonfake",
+    email: "jambhaleanuj@gmail.com",
+    linkedin: "https://www.linkedin.com/in/anuj-jambhale-856689245/",
+    github: "https://www.github.com/jambhaleAnuj",
+    twitter: "https://twitter.com/anujjambhale",
   },
 };

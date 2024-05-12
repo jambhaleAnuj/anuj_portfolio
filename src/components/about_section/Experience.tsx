@@ -11,7 +11,7 @@ export default function Experience(props: ExperienceProps) {
   return experience.length == 0 ? (
     <div></div>
   ) : (
-    <div className="flex flex-col space-y-4 lg:w-1/2 mx-4">
+    <div className="flex flex-col space-y-4 lg:w-1/2 mx-4 pt-10">
       <h1 className="text-3xl font-bold">Experience</h1>
       {experience.map((exp, index) => (
         <div className="flex flex-col space-y-2 relative" key={index}>

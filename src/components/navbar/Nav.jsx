@@ -10,7 +10,6 @@ export default function Nav({ posts }) {
   const navLinks = [
     { name: "About", href: "/#about" },
     { name: "Projects", href: "/#projects" },
-    { name: "Blog", href: "/#blog" },
     { name: "Contact", href: "/#contact" },
   ];
 
@@ -65,9 +64,7 @@ export default function Nav({ posts }) {
               <li className="px-4 flex">
                 <ToggleDarkMode />
               </li>
-              <li className="px-4 flex">
-                <Search posts={posts} />
-              </li>
+              <li className="px-4 flex"></li>
             </ul>
           </div>
         </div>
@@ -89,7 +86,6 @@ export default function Nav({ posts }) {
             ))}
             <li className="p-4 flex flex-row items-center justify-evenly">
               <ToggleDarkMode />
-              <Search posts={posts} />
             </li>
           </ul>
         </div>
